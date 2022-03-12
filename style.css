@@ -96,7 +96,7 @@ section .title::after{
     font-weight: 600;
 }
 .navbar .logo a span{
-    color: rgbrgb(23, 4, 94);
+    color: rgb(20, 84, 168);
     transition: all 0.3s ease;
 }
 .navbar.sticky .logo a span{
@@ -118,7 +118,7 @@ section .title::after{
     color: rgb(23, 4, 94);
 }
 .navbar.sticky .menu li a:hover{
-    color: #fff;
+    color: rgb(255, 255, 255);
 }
 /* -----------------menu btn-----------------*/
 .menu-btn{
@@ -159,7 +159,7 @@ section .title::after{
     display: flex;
     background: url("image/teste2.jpg") no-repeat center;
     height: 100vh;
-    color: #fff;
+    color: rgb(255, 255, 255);
     min-height: 500px;
     background-size: cover;
     background-attachment: fixed;
@@ -185,7 +185,7 @@ section .title::after{
     margin: 5px 0;
 }
 .home .home-content .text-3 span{
-    color: rgb(23, 4, 94);
+    color: rgb(20, 84, 168);
     font-weight: 500;
 }
 .home .home-content a{
@@ -230,6 +230,7 @@ section .title::after{
 }
 .about .about-content .right p{
     text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .about .about-content .right a{
     display: inline-block;
@@ -277,7 +278,7 @@ section .title::after{
     transition: all 0.3s ease;
 }
 .services .serv-content .card:hover .box{
-    transform: scale(1.25);
+    transform: scale(1.05);
 }
 .services .serv-content .card i{
     font-size: 50px;
@@ -306,6 +307,7 @@ section .title::after{
 }
 .skills .skills-content .left p{
     text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .skills .skills-content .left a{
     display: inline-block;
@@ -390,7 +392,7 @@ section .title::after{
 .teams .carousel .card:hover .box{
     transform: scale(1.05);
 }
-.teams .carousel .card .text{
+.teams .carousel .card .text {
     font-size: 25px;
     font-weight: 500;
     margin: 10px 0 7px 0;
@@ -426,6 +428,10 @@ section .title::after{
 .owl-dot.active,
 .owl-dot:hover{
     background: rgb(23, 4, 94)!important;
+}
+
+.teams .carousel .card .box .text a{
+    color: white;
 }
 /* contact section styling */
 .contact .title::after{
